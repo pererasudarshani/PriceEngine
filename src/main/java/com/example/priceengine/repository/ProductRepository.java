@@ -2,7 +2,7 @@ package com.example.priceengine.repository;
 
 import com.example.priceengine.model.Product;
 import com.example.priceengine.model.ProductCarton;
-import org.springframework.stereotype.Repository;
+import org.springframework.stereotype.Component;
 
 import java.math.BigDecimal;
 import java.math.MathContext;
@@ -12,7 +12,7 @@ import java.util.List;
 /**
  * The repository for the product
  */
-@Repository
+@Component
 public class ProductRepository {
 
     // The carton details
